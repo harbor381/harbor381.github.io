@@ -1,0 +1,1281 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>白虎美女写真 - 原创影像品牌 | 高清摄影内容社区</title>
+<meta name="description" content="白虎美女写真官方网站，专注原创人像影像的品牌内容平台，汇聚专业摄影师与创作者，提供高清写真、拍摄教程与行业观察。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231b1d24'/%3E%3Ccircle cx='32' cy='26' r='11' fill='%23f0b429'/%3E%3Cpath d='M14 56c2-12 9-18 18-18s16 6 18 18z' fill='%23e85d75'/%3E%3C/svg%3E">
+<style>
+  :root{
+    --bhm-bg:#f7f4ef;
+    --bhm-ink:#1b1d24;
+    --bhm-ink-soft:#4a4e59;
+    --bhm-line:#dcd5c9;
+    --bhm-accent:#c8435a;
+    --bhm-accent-2:#e8a33d;
+    --bhm-card:#fffdfa;
+    --bhm-shadow:0 14px 34px rgba(27,29,36,.10);
+    --bhm-radius:18px;
+    --bhm-sticky:112px;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0;
+    font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,-apple-system,sans-serif;
+    background:var(--bhm-bg);
+    color:var(--bhm-ink);
+    line-height:1.75;
+    -webkit-font-smoothing:antialiased;
+  }
+  img{max-width:100%;display:block;}
+  a{color:inherit;text-decoration:none;}
+  button{font-family:inherit;cursor:pointer;}
+  h1,h2,h3,h4{margin:0;line-height:1.3;}
+  p{margin:0 0 1em;}
+  ul{margin:0;padding:0;list-style:none;}
+  .bhm-wrap{max-width:1180px;margin:0 auto;padding:0 22px;}
+  .bhm-sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);}
+
+  /* ===== 公告条 + 页头 吸顶 ===== */
+  .bhm-topstick{position:sticky;top:0;z-index:60;}
+  .bhm-announce{
+    background:linear-gradient(90deg,#1b1d24,#2d2430 55%,#3a2430);
+    color:#f5ecdc;
+    font-size:13.5px;
+    letter-spacing:.2px;
+  }
+  .bhm-announce .bhm-wrap{
+    display:flex;align-items:center;gap:14px;
+    min-height:40px;padding-top:6px;padding-bottom:6px;
+    overflow:hidden;
+  }
+  .bhm-announce-tag{
+    flex:none;background:var(--bhm-accent-2);color:#231a10;
+    font-weight:700;font-size:12px;padding:2px 9px;border-radius:99px;
+    letter-spacing:1px;
+  }
+  .bhm-announce-roll{
+    flex:1;min-width:0;overflow:hidden;white-space:nowrap;
+    mask-image:linear-gradient(90deg,transparent,#000 12px,#000 calc(100% - 24px),transparent);
+  }
+  .bhm-announce-roll span{display:inline-block;padding-left:4px;}
+  .bhm-announce a{color:var(--bhm-accent-2);font-weight:600;flex:none;}
+  .bhm-header{
+    background:rgba(247,244,239,.94);
+    backdrop-filter:blur(10px);
+    border-bottom:1px solid var(--bhm-line);
+  }
+  .bhm-header .bhm-wrap{
+    display:flex;align-items:center;gap:20px;min-height:70px;
+  }
+  .bhm-brand{display:flex;align-items:center;gap:11px;flex:none;}
+  .bhm-brand-mark{
+    width:40px;height:40px;border-radius:12px;
+    background:radial-gradient(circle at 32% 28%,#f0b429 0 32%,#c8435a 33% 100%);
+    display:grid;place-items:center;color:#fff;font-weight:800;font-size:17px;
+    box-shadow:0 6px 16px rgba(200,67,90,.32);
+  }
+  .bhm-brand-name{font-weight:800;font-size:19px;letter-spacing:.5px;}
+  .bhm-brand-sub{display:block;font-size:11px;color:var(--bhm-ink-soft);font-weight:500;letter-spacing:2px;}
+  .bhm-nav{display:flex;align-items:center;gap:4px;margin-left:8px;flex:1;min-width:0;flex-wrap:wrap;}
+  .bhm-nav a{
+    font-size:14.5px;padding:7px 11px;border-radius:9px;color:var(--bhm-ink-soft);
+    transition:background .2s,color .2s;white-space:nowrap;
+  }
+  .bhm-nav a:hover,.bhm-nav a:focus-visible{background:#efe7da;color:var(--bhm-accent);}
+  .bhm-head-tools{display:flex;align-items:center;gap:10px;flex:none;}
+  .bhm-search{position:relative;}
+  .bhm-search input{
+    width:190px;padding:9px 34px 9px 14px;border-radius:99px;
+    border:1px solid var(--bhm-line);background:#fffdfa;font-size:13.5px;color:var(--bhm-ink);
+    outline:none;transition:border-color .2s,box-shadow .2s;
+  }
+  .bhm-search input:focus{border-color:var(--bhm-accent);box-shadow:0 0 0 3px rgba(200,67,90,.13);}
+  .bhm-search-btn{
+    position:absolute;right:3px;top:3px;bottom:3px;width:30px;
+    border:0;border-radius:99px;background:transparent;color:var(--bhm-accent);font-size:14px;
+  }
+  .bhm-search-tip{
+    position:absolute;top:calc(100% + 8px);right:0;width:270px;
+    background:#fffdfa;border:1px solid var(--bhm-line);border-radius:14px;
+    box-shadow:var(--bhm-shadow);padding:12px 14px;font-size:13px;display:none;
+  }
+  .bhm-search-tip.is-open{display:block;}
+  .bhm-search-tip strong{color:var(--bhm-accent);}
+  .bhm-burger{
+    display:none;border:1px solid var(--bhm-line);background:#fffdfa;
+    border-radius:11px;width:42px;height:42px;font-size:19px;color:var(--bhm-ink);
+  }
+  @media (max-width:940px){
+    .bhm-nav{
+      display:none;position:absolute;left:0;right:0;top:100%;
+      background:#fffdfa;border-bottom:1px solid var(--bhm-line);
+      padding:12px 22px 18px;box-shadow:var(--bhm-shadow);margin:0;
+    }
+    .bhm-nav.is-open{display:flex;flex-direction:column;align-items:stretch;}
+    .bhm-nav a{padding:11px 12px;font-size:15px;}
+    .bhm-burger{display:grid;place-items:center;}
+    .bhm-header .bhm-wrap{position:relative;flex-wrap:wrap;}
+    .bhm-search input{width:130px;}
+  }
+  @media (max-width:520px){
+    .bhm-search{display:none;}
+    .bhm-brand-sub{display:none;}
+  }
+
+  /* ===== 通用 section 与标题 ===== */
+  section{scroll-margin-top:var(--bhm-sticky);}
+  .bhm-sec{padding:64px 0;}
+  .bhm-sec-head{max-width:760px;margin-bottom:34px;}
+  .bhm-eyebrow{
+    display:inline-flex;align-items:center;gap:8px;font-size:12.5px;font-weight:700;
+    letter-spacing:2.5px;color:var(--bhm-accent);text-transform:uppercase;margin-bottom:12px;
+  }
+  .bhm-eyebrow::before{content:"";width:26px;height:2px;background:var(--bhm-accent);display:block;}
+  .bhm-h2{font-size:clamp(25px,3.4vw,36px);letter-spacing:-.4px;}
+  .bhm-h2 em{font-style:normal;color:var(--bhm-accent);}
+  .bhm-lead{color:var(--bhm-ink-soft);font-size:15.5px;margin-top:12px;}
+  .bhm-h3{font-size:20px;margin-bottom:8px;}
+  .bhm-card{
+    background:var(--bhm-card);border:1px solid var(--bhm-line);border-radius:var(--bhm-radius);
+    box-shadow:0 2px 0 rgba(27,29,36,.03);transition:transform .25s ease,box-shadow .25s ease;
+  }
+  .bhm-card:hover{transform:translateY(-4px);box-shadow:var(--bhm-shadow);}
+  .bhm-tag{
+    display:inline-block;font-size:12px;padding:2px 9px;border-radius:99px;
+    background:#f0e5d6;color:#7a5b32;font-weight:600;
+  }
+  .bhm-tag--hot{background:#fbe3e6;color:#b32e46;}
+  .bhm-tag--new{background:#e2f0e4;color:#2e6b46;}
+
+  /* ===== 首屏 4:6 大幅图文 ===== */
+  .bhm-hero{padding:56px 0 20px;position:relative;overflow:hidden;}
+  .bhm-hero::before{
+    content:"";position:absolute;right:-140px;top:-120px;width:420px;height:420px;
+    background:radial-gradient(circle,rgba(232,163,61,.20),transparent 68%);border-radius:50%;
+  }
+  .bhm-hero-grid{
+    display:grid;grid-template-columns:minmax(0,4fr) minmax(0,6fr);gap:44px;align-items:center;
+  }
+  .bhm-hero-h1{font-size:clamp(38px,5.6vw,66px);letter-spacing:-1.5px;line-height:1.06;}
+  .bhm-hero-h1 span{color:var(--bhm-accent);}
+  .bhm-hero-badge{
+    display:inline-flex;align-items:center;gap:8px;font-size:12.5px;font-weight:700;
+    letter-spacing:1.4px;color:#7a5b32;background:#f2e7d5;border-radius:99px;
+    padding:5px 13px;margin-bottom:16px;
+  }
+  .bhm-hero-intro{font-size:15.5px;color:var(--bhm-ink-soft);margin-top:18px;max-width:32em;}
+  .bhm-hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px;}
+  .bhm-btn{
+    display:inline-flex;align-items:center;gap:8px;border-radius:99px;
+    padding:12px 24px;font-size:14.5px;font-weight:700;border:1px solid transparent;
+    transition:transform .2s,box-shadow .2s,background .2s;
+  }
+  .bhm-btn:active{transform:scale(.97);}
+  .bhm-btn--primary{background:var(--bhm-accent);color:#fff;box-shadow:0 10px 24px rgba(200,67,90,.30);}
+  .bhm-btn--primary:hover{background:#b3354c;box-shadow:0 14px 30px rgba(200,67,90,.36);}
+  .bhm-btn--ghost{background:transparent;border-color:var(--bhm-ink);color:var(--bhm-ink);}
+  .bhm-btn--ghost:hover{background:var(--bhm-ink);color:#fff;}
+  .bhm-btn--soft{background:#efe7da;color:var(--bhm-ink);}
+  .bhm-btn--soft:hover{background:#e5dac9;}
+  .bhm-hero-stats{
+    display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-top:34px;
+    border-top:1px solid var(--bhm-line);padding-top:22px;
+  }
+  .bhm-hero-stats b{display:block;font-size:26px;letter-spacing:-.5px;color:var(--bhm-ink);}
+  .bhm-hero-stats small{font-size:12.5px;color:var(--bhm-ink-soft);}
+  .bhm-hero-visual{position:relative;}
+  .bhm-hero-visual .bhm-hero-shot{
+    border-radius:26px;overflow:hidden;box-shadow:0 30px 60px rgba(27,29,36,.22);
+    border:1px solid #e6ddcd;
+  }
+  .bhm-hero-visual .bhm-hero-shot img{width:100%;height:auto;aspect-ratio:16/11;object-fit:cover;}
+  .bhm-hero-float{
+    position:absolute;left:-18px;bottom:26px;background:#fffdfa;border:1px solid var(--bhm-line);
+    border-radius:16px;padding:12px 16px;box-shadow:var(--bhm-shadow);font-size:13px;
+    display:flex;gap:11px;align-items:center;max-width:250px;
+  }
+  .bhm-hero-float b{color:var(--bhm-accent);}
+  .bhm-hero-avatar{
+    width:38px;height:38px;border-radius:50%;flex:none;
+    background:radial-gradient(circle at 35% 30%,#f6c869,#c8435a 78%);
+    display:grid;place-items:center;color:#fff;font-weight:800;font-size:14px;
+  }
+  @media (max-width:900px){
+    .bhm-hero-grid{grid-template-columns:1fr;gap:30px;}
+    .bhm-hero-float{left:12px;bottom:12px;}
+  }
+
+  /* ===== 品牌解析 / 深度 ===== */
+  .bhm-about-grid{display:grid;grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:40px;}
+  .bhm-about-body p{color:var(--bhm-ink-soft);font-size:15.5px;}
+  .bhm-about-body h3{margin:26px 0 8px;font-size:19px;color:var(--bhm-ink);}
+  .bhm-about-aside{display:grid;gap:18px;align-content:start;}
+  .bhm-factcard{padding:22px;border-radius:var(--bhm-radius);background:#fffdfa;border:1px solid var(--bhm-line);}
+  .bhm-factcard h4{font-size:15px;letter-spacing:1px;color:var(--bhm-accent);margin-bottom:12px;}
+  .bhm-factcard li{font-size:14px;color:var(--bhm-ink-soft);padding:7px 0;border-bottom:1px dashed var(--bhm-line);}
+  .bhm-factcard li:last-child{border-bottom:0;}
+  .bhm-factcard li b{color:var(--bhm-ink);}
+  .bhm-figure{margin:24px 0;}
+  .bhm-figure img{width:100%;height:auto;border-radius:16px;border:1px solid #e6ddcd;aspect-ratio:16/10;object-fit:cover;}
+  .bhm-figure figcaption{font-size:12.5px;color:var(--bhm-ink-soft);margin-top:8px;}
+  @media (max-width:900px){.bhm-about-grid{grid-template-columns:1fr;}}
+
+  /* ===== 视频内容：一重点 + 文字列表 ===== */
+  .bhm-feature-grid{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:30px;}
+  .bhm-feature-main{overflow:hidden;}
+  .bhm-feature-main .bhm-thumb{position:relative;}
+  .bhm-feature-main img{width:100%;height:auto;aspect-ratio:16/10;object-fit:cover;}
+  .bhm-play{
+    position:absolute;inset:0;display:grid;place-items:center;background:linear-gradient(180deg,transparent 40%,rgba(20,18,24,.55));
+  }
+  .bhm-play i{
+    width:56px;height:56px;border-radius:50%;background:rgba(255,253,250,.92);
+    display:grid;place-items:center;color:var(--bhm-accent);font-style:normal;font-size:19px;
+    box-shadow:0 8px 22px rgba(0,0,0,.25);padding-left:3px;
+  }
+  .bhm-feature-main .bhm-feature-body{padding:20px 22px 24px;}
+  .bhm-feature-main h3{font-size:21px;margin:8px 0 8px;}
+  .bhm-feature-main p{font-size:14px;color:var(--bhm-ink-soft);}
+  .bhm-meta{display:flex;flex-wrap:wrap;gap:10px 16px;font-size:12.5px;color:var(--bhm-ink-soft);margin:12px 0 4px;}
+  .bhm-act-row{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px;}
+  .bhm-act{
+    display:inline-flex;align-items:center;gap:6px;font-size:13px;
+    border:1px solid var(--bhm-line);background:#fffdfa;border-radius:99px;
+    padding:6px 13px;color:var(--bhm-ink-soft);transition:all .2s;
+  }
+  .bhm-act:hover{border-color:var(--bhm-accent);color:var(--bhm-accent);}
+  .bhm-act.is-on{background:#fbe3e6;border-color:#eab6bf;color:#b32e46;font-weight:700;}
+  .bhm-vloop{display:grid;gap:0;}
+  .bhm-vitem{
+    display:grid;grid-template-columns:minmax(0,1fr) auto;gap:16px;
+    padding:18px 4px;border-bottom:1px solid var(--bhm-line);align-items:start;
+  }
+  .bhm-vitem:first-child{padding-top:2px;}
+  .bhm-vitem h4{font-size:16.5px;margin:5px 0 5px;}
+  .bhm-vitem p{font-size:13.5px;color:var(--bhm-ink-soft);margin:0 0 6px;}
+  .bhm-vitem .bhm-meta{margin:6px 0 0;}
+  .bhm-vnum{
+    font-family:Georgia,serif;font-size:26px;color:#d8ccb8;font-weight:700;line-height:1;
+  }
+  @media (max-width:900px){
+    .bhm-feature-grid{grid-template-columns:1fr;}
+    .bhm-vitem{grid-template-columns:1fr;}
+    .bhm-vnum{display:none;}
+  }
+
+  /* ===== 专题 ===== */
+  .bhm-topic-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;}
+  .bhm-topic{padding:22px;display:flex;flex-direction:column;gap:12px;}
+  .bhm-topic .bhm-topic-status{
+    font-size:12px;font-weight:700;color:#2e6b46;background:#e2f0e4;
+    border-radius:99px;padding:3px 10px;align-self:flex-start;
+  }
+  .bhm-topic h3{font-size:18px;}
+  .bhm-topic .bhm-topic-desc{font-size:13.5px;color:var(--bhm-ink-soft);}
+  .bhm-topic ul{margin-top:auto;border-top:1px dashed var(--bhm-line);padding-top:12px;display:grid;gap:8px;}
+  .bhm-topic ul li{font-size:13px;color:var(--bhm-ink-soft);padding-left:16px;position:relative;}
+  .bhm-topic ul li::before{content:"›";position:absolute;left:2px;color:var(--bhm-accent);font-weight:800;}
+  .bhm-topic--wide{grid-column:span 2;}
+  .bhm-topic--wide .bhm-topic-cover{border-radius:14px;overflow:hidden;margin-bottom:4px;}
+  .bhm-topic--wide img{width:100%;height:auto;aspect-ratio:16/8;object-fit:cover;}
+  @media (max-width:900px){
+    .bhm-topic-grid{grid-template-columns:1fr;}
+    .bhm-topic--wide{grid-column:auto;}
+  }
+
+  /* ===== 作者：单行名录 ===== */
+  .bhm-authors{display:grid;gap:14px;}
+  .bhm-author{
+    display:grid;grid-template-columns:56px minmax(0,1fr) auto;gap:18px;align-items:center;
+    padding:18px 20px;
+  }
+  .bhm-author-ava{
+    width:56px;height:56px;border-radius:16px;display:grid;place-items:center;
+    font-weight:800;color:#fff;font-size:20px;letter-spacing:1px;
+  }
+  .bhm-author h3{font-size:16.5px;display:flex;align-items:center;gap:9px;flex-wrap:wrap;}
+  .bhm-author .bhm-author-role{font-size:12px;font-weight:600;color:var(--bhm-accent);background:#fbe9ec;border-radius:99px;padding:2px 9px;}
+  .bhm-author p{font-size:13.5px;color:var(--bhm-ink-soft);margin:5px 0 0;}
+  .bhm-author-data{display:flex;gap:18px;font-size:12.5px;color:var(--bhm-ink-soft);text-align:right;}
+  .bhm-author-data b{display:block;font-size:16px;color:var(--bhm-ink);}
+  @media (max-width:760px){
+    .bhm-author{grid-template-columns:56px minmax(0,1fr);}
+    .bhm-author-data{grid-column:1/-1;justify-content:flex-start;text-align:left;border-top:1px dashed var(--bhm-line);padding-top:10px;}
+  }
+
+  /* ===== 图文索引 ===== */
+  .bhm-index-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;}
+  .bhm-index-item{overflow:hidden;}
+  .bhm-index-item img{width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;}
+  .bhm-index-body{padding:16px 18px 20px;}
+  .bhm-index-body h3{font-size:16px;margin:6px 0;}
+  .bhm-index-body p{font-size:13.5px;color:var(--bhm-ink-soft);margin:0;}
+  @media (max-width:900px){.bhm-index-grid{grid-template-columns:1fr;}}
+
+  /* ===== 评论：短评列表 ===== */
+  .bhm-cmt-head{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;margin-bottom:20px;}
+  .bhm-score{font-family:Georgia,serif;font-size:44px;line-height:1;color:var(--bhm-accent);}
+  .bhm-cmts{display:grid;gap:12px;}
+  .bhm-cmt{
+    display:grid;grid-template-columns:44px minmax(0,1fr);gap:14px;
+    padding:16px 18px;border-radius:14px;background:#fffdfa;border:1px solid var(--bhm-line);
+  }
+  .bhm-cmt-ava{width:44px;height:44px;border-radius:50%;display:grid;place-items:center;color:#fff;font-weight:800;font-size:15px;}
+  .bhm-cmt-b{font-weight:700;font-size:14px;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;}
+  .bhm-cmt-b span{font-weight:500;color:var(--bhm-ink-soft);font-size:12px;}
+  .bhm-cmt p{font-size:13.5px;color:var(--bhm-ink-soft);margin:5px 0 0;}
+  .bhm-cmt--quote{
+    grid-template-columns:1fr;border-left:4px solid var(--bhm-accent-2);
+    background:#fdf6e9;
+  }
+  .bhm-cmt--quote p{font-size:15px;color:var(--bhm-ink);font-weight:600;}
+
+  /* ===== FAQ ===== */
+  .bhm-faq{display:grid;gap:10px;}
+  .bhm-faq details{
+    background:#fffdfa;border:1px solid var(--bhm-line);border-radius:14px;
+    padding:0 18px;overflow:hidden;
+  }
+  .bhm-faq summary{
+    cursor:pointer;padding:16px 0;font-weight:700;font-size:15px;list-style:none;
+    display:flex;justify-content:space-between;gap:16px;align-items:center;
+  }
+  .bhm-faq summary::-webkit-details-marker{display:none;}
+  .bhm-faq summary::after{content:"+";color:var(--bhm-accent);font-size:20px;font-weight:400;line-height:1;}
+  .bhm-faq details[open] summary::after{content:"–";}
+  .bhm-faq .bhm-faq-a{padding-bottom:16px;font-size:14px;color:var(--bhm-ink-soft);}
+
+  /* ===== 动态 & 合作 ===== */
+  .bhm-two-col{display:grid;grid-template-columns:minmax(0,6fr) minmax(0,4fr);gap:36px;}
+  .bhm-timeline{display:grid;gap:0;border-left:2px solid var(--bhm-line);padding-left:22px;}
+  .bhm-timeline li{position:relative;padding-bottom:22px;}
+  .bhm-timeline li::before{
+    content:"";position:absolute;left:-29px;top:7px;width:11px;height:11px;border-radius:50%;
+    background:var(--bhm-accent);box-shadow:0 0 0 4px #f7f4ef;
+  }
+  .bhm-timeline time{font-size:12px;color:var(--bhm-accent);font-weight:700;letter-spacing:.5px;}
+  .bhm-timeline h3{font-size:16px;margin:3px 0 4px;}
+  .bhm-timeline p{font-size:13.5px;color:var(--bhm-ink-soft);margin:0;}
+  .bhm-partners{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;}
+  .bhm-partner{
+    border:1px dashed var(--bhm-line);border-radius:14px;padding:14px 16px;background:#fffdfa;
+    font-size:14px;font-weight:700;
+  }
+  .bhm-partner small{display:block;font-weight:500;font-size:12px;color:var(--bhm-ink-soft);margin-top:2px;}
+  @media (max-width:900px){.bhm-two-col{grid-template-columns:1fr;}}
+
+  /* ===== CTA ===== */
+  .bhm-cta{
+    background:linear-gradient(120deg,#1b1d24,#3a2830 70%,#5a2b34);
+    color:#f7f1e6;border-radius:24px;padding:40px;
+    display:grid;grid-template-columns:minmax(0,1fr) auto;gap:26px;align-items:center;
+  }
+  .bhm-cta h2{font-size:clamp(22px,3vw,30px);color:#fff;}
+  .bhm-cta p{color:#d9cdbb;font-size:14.5px;margin:10px 0 0;}
+  .bhm-cta .bhm-act-row{margin-top:0;}
+  @media (max-width:760px){.bhm-cta{grid-template-columns:1fr;padding:28px;}}
+
+  /* ===== 页脚 ===== */
+  .bhm-footer{background:#15161c;color:#b9b3a8;margin-top:70px;padding:52px 0 26px;font-size:13.5px;}
+  .bhm-footer-top{display:grid;grid-template-columns:minmax(0,2fr) repeat(3,minmax(0,1fr));gap:34px;}
+  .bhm-footer h4{font-size:14px;color:#f3ecdf;margin-bottom:12px;letter-spacing:1px;}
+  .bhm-footer li{padding:5px 0;}
+  .bhm-footer a:hover{color:var(--bhm-accent-2);}
+  .bhm-footer-brand{display:flex;align-items:center;gap:11px;margin-bottom:14px;}
+  .bhm-footer-brand .bhm-brand-name{color:#f3ecdf;}
+  .bhm-footer-bottom{
+    margin-top:34px;padding-top:18px;border-top:1px solid #2a2b33;
+    display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;font-size:12.5px;color:#8b857a;
+  }
+  @media (max-width:860px){.bhm-footer-top{grid-template-columns:1fr 1fr;}}
+
+  /* ===== 回到顶部 & Toast ===== */
+  .bhm-totop{
+    position:fixed;right:20px;bottom:24px;width:46px;height:46px;border-radius:50%;
+    border:1px solid var(--bhm-line);background:#fffdfa;color:var(--bhm-ink);
+    box-shadow:var(--bhm-shadow);font-size:17px;display:none;place-items:center;z-index:70;
+  }
+  .bhm-totop.is-show{display:grid;}
+  .bhm-toast{
+    position:fixed;left:50%;bottom:34px;transform:translate(-50%,20px);
+    background:#1b1d24;color:#f7f1e6;padding:11px 20px;border-radius:99px;font-size:13.5px;
+    box-shadow:0 16px 34px rgba(0,0,0,.28);opacity:0;pointer-events:none;transition:all .28s;z-index:90;
+  }
+  .bhm-toast.is-show{opacity:1;transform:translate(-50%,0);}
+
+  /* ===== Modal ===== */
+  .bhm-modal{
+    position:fixed;inset:0;background:rgba(20,18,24,.58);z-index:100;
+    display:none;align-items:center;justify-content:center;padding:22px;
+  }
+  .bhm-modal.is-open{display:flex;}
+  .bhm-modal-box{
+    background:#fffdfa;border-radius:20px;max-width:520px;width:100%;
+    padding:26px;position:relative;box-shadow:0 30px 70px rgba(0,0,0,.3);
+    max-height:86vh;overflow:auto;
+  }
+  .bhm-modal-box h3{font-size:20px;margin-bottom:10px;}
+  .bhm-modal-box p{font-size:14px;color:var(--bhm-ink-soft);}
+  .bhm-modal-close{
+    position:absolute;right:14px;top:12px;border:0;background:transparent;font-size:22px;color:var(--bhm-ink-soft);
+  }
+  .bhm-field{display:grid;gap:6px;margin-top:12px;}
+  .bhm-field label{font-size:13px;font-weight:700;}
+  .bhm-field input,.bhm-field textarea{
+    width:100%;border:1px solid var(--bhm-line);border-radius:11px;padding:10px 12px;
+    font-family:inherit;font-size:14px;background:#fff;outline:none;
+  }
+  .bhm-field input:focus,.bhm-field textarea:focus{border-color:var(--bhm-accent);}
+  .bhm-share-row{display:flex;gap:10px;flex-wrap:wrap;margin-top:16px;}
+</style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+
+<!-- S1 公告条 + 页头 -->
+<div class="bhm-topstick">
+  <div class="bhm-announce">
+    <div class="bhm-wrap">
+      <span class="bhm-announce-tag">官方发布</span>
+      <div class="bhm-announce-roll" id="bhmAnnounceRoll">
+        <span>「白虎美女写真」2026 冬季原创企划《光与形》上线，首批 12 组高清正版作品已开放观看；摄影征集通道将于 11 月 30 日截止。</span>
+      </div>
+      <a href="#bhm-topics">查看企划</a>
+    </div>
+  </div>
+  <header class="bhm-header">
+    <div class="bhm-wrap">
+      <a class="bhm-brand" href="#bhm-hero">
+        <span class="bhm-brand-mark" aria-hidden="true">白</span>
+        <span>
+          <span class="bhm-brand-name">白虎影像</span>
+          <span class="bhm-brand-sub">BAIHU PORTRAIT</span>
+        </span>
+      </a>
+      <nav class="bhm-nav" id="bhmNav" aria-label="主导航">
+        <a href="#bhm-hero">首页</a>
+        <a href="#bhm-feature">精选影像</a>
+        <a href="#bhm-topics">专题企划</a>
+        <a href="#bhm-authors">创作者</a>
+        <a href="#bhm-about">品牌解析</a>
+        <a href="#bhm-cmts">用户口碑</a>
+        <a href="#bhm-faq">帮助中心</a>
+        <a href="#bhm-contact">投稿联系</a>
+      </nav>
+      <div class="bhm-head-tools">
+        <div class="bhm-search">
+          <label class="bhm-sr" for="bhmSearchInput">搜索站内内容</label>
+          <input id="bhmSearchInput" type="search" placeholder="搜索写真 / 教程 / 作者" autocomplete="off">
+          <button class="bhm-search-btn" id="bhmSearchBtn" type="button" aria-label="搜索">⌕</button>
+          <div class="bhm-search-tip" id="bhmSearchTip" role="status"></div>
+        </div>
+        <button class="bhm-burger" id="bhmBurger" type="button" aria-label="展开导航" aria-expanded="false">☰</button>
+      </div>
+    </div>
+  </header>
+</div>
+
+<main>
+
+  <!-- S2 品牌首屏 -->
+  <section class="bhm-hero" id="bhm-hero">
+    <div class="bhm-wrap bhm-hero-grid">
+      <div>
+        <span class="bhm-hero-badge">官方网站 · 原创正版影像平台</span>
+        <h1 class="bhm-hero-h1">白虎<span>美女写真</span></h1>
+        <p class="bhm-hero-intro">
+          「白虎影像」是一家深耕人像影像七年的企业级内容品牌，以白虎美女写真为核心内容方向，坚持原创、正版、高清的创作标准。我们连接专业摄影师、造型师与出镜创作者，围绕光影、形体与叙事展开长期拍摄计划，为影像爱好者与企业客户提供值得信赖的精品内容与版权服务。
+        </p>
+        <div class="bhm-hero-actions">
+          <a class="bhm-btn bhm-btn--primary" href="#bhm-feature">进入精选影像</a>
+          <a class="bhm-btn bhm-btn--ghost" href="#bhm-authors">认识创作者</a>
+          <button class="bhm-btn bhm-btn--soft" type="button" data-bhm-open="submit">我要投稿</button>
+        </div>
+        <div class="bhm-hero-stats">
+          <div><b>1,264</b><small>原创作品入库</small></div>
+          <div><b>38</b><small>签约创作者</small></div>
+          <div><b>92.4万</b><small>社区累计收藏</small></div>
+        </div>
+      </div>
+      <div class="bhm-hero-visual">
+        <div class="bhm-hero-shot">
+          <img src="data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 550'%3E%3Cdefs%3E%3ClinearGradient id='g1' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23f7e6c8'/%3E%3Cstop offset='1' stop-color='%23c8435a'/%3E%3C/linearGradient%3E%3ClinearGradient id='g2' x1='0' y1='1' x2='1' y2='0'%3E%3Cstop offset='0' stop-color='%231b1d24'/%3E%3Cstop offset='1' stop-color='%23613a45'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='800' height='550' fill='url(%23g1)'/%3E%3Ccircle cx='600' cy='150' r='120' fill='%23fff3d6' opacity='.55'/%3E%3Cpath d='M0 550 C160 380 300 470 430 330 C540 210 660 260 800 140 L800 550 Z' fill='url(%23g2)'/%3E%3Cpath d='M430 330 C400 250 430 190 470 160 C455 220 470 275 500 310 Z' fill='%23f0b429' opacity='.9'/%3E%3Ccircle cx='470' cy='150' r='34' fill='%23f7e6c8'/%3E%3Cpath d='M436 150 q34 -52 68 0 q-34 26 -68 0 z' fill='%231b1d24'/%3E%3Crect x='60' y='60' width='150' height='8' rx='4' fill='%23fff' opacity='.7'/%3E%3Crect x='60' y='84' width='94' height='8' rx='4' fill='%23fff' opacity='.45'/%3E%3C/svg%3E" width="800" height="550" alt="白虎美女写真主视觉：暖金色光影中的侧影人像与层叠剪影">
+        </div>
+        <div class="bhm-hero-float">
+          <span class="bhm-hero-avatar" aria-hidden="true">林</span>
+          <span>摄影总监 <b>林渚</b> 新作《白昼纹理》正在热播</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- S3 精选影像 -->
+  <section class="bhm-sec" id="bhm-feature">
+    <div class="bhm-wrap">
+      <div class="bhm-sec-head">
+        <span class="bhm-eyebrow">Featured Works</span>
+        <h2 class="bhm-h2">白虎美女写真 <em>精选影像</em></h2>
+        <p class="bhm-lead">每周由编审团队从官方发布会与创作者投稿中遴选重点作品，兼顾光影质感与叙事完整度，优先呈现高清正版成片。</p>
+      </div>
+
+      <div class="bhm-feature-grid">
+        <article class="bhm-card bhm-feature-main">
+          <div class="bhm-thumb">
+            <img src="data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 720 450'%3E%3Crect width='720' height='450' fill='%23201a22'/%3E%3Ccircle cx='540' cy='120' r='150' fill='%23e8a33d' opacity='.28'/%3E%3Crect x='0' y='300' width='720' height='150' fill='%23c8435a' opacity='.35'/%3E%3Cpath d='M120 450 C150 300 210 250 260 230 C250 290 270 350 300 450 Z' fill='%23f7e6c8' opacity='.85'/%3E%3Ccircle cx='262' cy='196' r='40' fill='%23f2d2ae'/%3E%3Cpath d='M218 196 q44 -66 88 0 q-44 34 -88 0 z' fill='%23201a22'/%3E%3Crect x='400' y='230' width='240' height='10' rx='5' fill='%23f7e6c8' opacity='.65'/%3E%3Crect x='400' y='258' width='170' height='10' rx='5' fill='%23f7e6c8' opacity='.4'/%3E%3Crect x='400' y='286' width='200' height='10' rx='5' fill='%23f7e6c8' opacity='.28'/%3E%3C/svg%3E" width="720" height="450" alt="重点作品《白昼纹理》封面：暗色背景中的暖金光斑与人物剪影">
+            <span class="bhm-play" aria-hidden="true"><i>▶</i></span>
+          </div>
+          <div class="bhm-feature-body">
+            <span class="bhm-tag bhm-tag--hot">本周焦点</span>
+            <h3>《白昼纹理》：用一束侧光讲完一个下午</h3>
+            <p>全片以自然窗光为主光源，记录模特从午后到黄昏的十二个瞬间，剪辑刻意保留呼吸与翻页声，呈现白虎美女写真的克制与呼吸感。</p>
+            <div class="bhm-meta">
+              <span>作者 · 林渚</span><span>时长 04:52</span><span>播放 18.6万</span><span>收藏 1.2万</span>
+            </div>
+            <div class="bhm-act-row">
+              <button class="bhm-act" type="button" data-bhm-like data-bhm-count="186420">♡ 点赞 <span>186420</span></button>
+              <button class="bhm-act" type="button" data-bhm-fav>☆ 收藏</button>
+              <button class="bhm-act" type="button" data-bhm-share>↗ 分享</button>
+              <button class="bhm-act" type="button" data-bhm-open="comment">✎ 评论</button>
+            </div>
+          </div>
+        </article>
+
+        <div class="bhm-vloop">
+          <div class="bhm-vitem">
+            <div>
+              <span class="bhm-tag bhm-tag--new">高清</span>
+              <h4>《纸背》系列第一组：白绸、木箱与一整个清晨</h4>
+              <p>棚拍实验，使用纸质背景与硬光制造边界感，附完整布光示意图与参数说明。</p>
+              <div class="bhm-meta"><span>作者 阿墨</span><span>播放 9.4万</span><span>收藏 6,318</span></div>
+              <div class="bhm-act-row">
+                <button class="bhm-act" type="button" data-bhm-like data-bhm-count="94210">♡ 点赞</button>
+                <button class="bhm-act" type="button" data-bhm-fav>☆ 收藏</button>
+              </div>
+            </div>
+            <div class="bhm-vnum">01</div>
+          </div>
+          <div class="bhm-vitem">
+            <div>
+              <span class="bhm-tag">教程</span>
+              <h4>白虎美女写真怎么拍？从构图到后期的六步工作流</h4>
+              <p>把复杂流程拆成可复用步骤，适合刚进入人像影像领域的创作者。</p>
+              <div class="bhm-meta"><span>作者 周予</span><span>播放 12.1万</span><span>收藏 9,045</span></div>
+              <div class="bhm-act-row">
+                <button class="bhm-act" type="button" data-bhm-like data-bhm-count="121300">♡ 点赞</button>
+                <button class="bhm-act" type="button" data-bhm-fav>☆ 收藏</button>
+              </div>
+            </div>
+            <div class="bhm-vnum">02</div>
+          </div>
+          <div class="bhm-vitem">
+            <div>
+              <span class="bhm-tag">访谈</span>
+              <h4>与模特苏绛聊“被拍摄”：一次关于信任与边界的对话</h4>
+              <p>镜头前如何建立安全感，出镜者与摄影师之间怎样协商，实录整理。</p>
+              <div class="bhm-meta"><span>作者 编辑部</span><span>播放 7.8万</span><span>收藏 4,205</span></div>
+              <div class="bhm-act-row">
+                <button class="bhm-act" type="button" data-bhm-like data-bhm-count="78020">♡ 点赞</button>
+                <button class="bhm-act" type="button" data-bhm-fav>☆ 收藏</button>
+              </div>
+            </div>
+            <div class="bhm-vnum">03</div>
+          </div>
+          <div class="bhm-vitem">
+            <div>
+              <span class="bhm-tag">幕后</span>
+              <h4>《光与形》片场记录：一次持续十四小时的外景调度</h4>
+              <p>从勘景、试光到晚餐，完整记录一支官方企划的幕后成本与取舍。</p>
+              <div class="bhm-meta"><span>作者 顾辞</span><span>播放 6.3万</span><span>收藏 3,067</span></div>
+              <div class="bhm-act-row">
+                <button class="bhm-act" type="button" data-bhm-like data-bhm-count="63290">♡ 点赞</button>
+                <button class="bhm-act" type="button" data-bhm-fav>☆ 收藏</button>
+              </div>
+            </div>
+            <div class="bhm-vnum">04</div>
+          </div>
+          <div class="bhm-vitem">
+            <div>
+              <span class="bhm-tag">测评</span>
+              <h4>三支定焦镜头实测：哪一支更适合人像叙事</h4>
+              <p>同一场景、同一模特、同一光位，横向比较边缘成像与肤色还原。</p>
+              <div class="bhm-meta"><span>作者 周予</span><span>播放 5.1万</span><span>收藏 2,884</span></div>
+              <div class="bhm-act-row">
+                <button class="bhm-act" type="button" data-bhm-like data-bhm-count="51480">♡ 点赞</button>
+                <button class="bhm-act" type="button" data-bhm-fav>☆ 收藏</button>
+              </div>
+            </div>
+            <div class="bhm-vnum">05</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- M4 专题企划 -->
+  <section class="bhm-sec" id="bhm-topics">
+    <div class="bhm-wrap">
+      <div class="bhm-sec-head">
+        <span class="bhm-eyebrow">Editorial Projects</span>
+        <h2 class="bhm-h2">专题与企业企划：白虎美女写真的<em>长期主义</em></h2>
+        <p class="bhm-lead">品牌每年固定推进三到四个长线专题，由官方编审、签约创作者与外部机构共同参与，形成可持续的内容生态。</p>
+      </div>
+      <div class="bhm-topic-grid">
+        <article class="bhm-card bhm-topic bhm-topic--wide">
+          <span class="bhm-topic-status">更新中 · 已上线 8 组</span>
+          <div class="bhm-topic-cover">
+            <img src="data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 900 450'%3E%3Crect width='900' height='450' fill='%23eae3d6'/%3E%3Crect x='0' y='0' width='900' height='450' fill='none'/%3E%3Ccircle cx='210' cy='225' r='140' fill='%23c8435a' opacity='.18'/%3E%3Ccircle cx='680' cy='180' r='110' fill='%23e8a33d' opacity='.3'/%3E%3Cpath d='M300 450 C320 300 380 250 440 220 C430 300 450 380 470 450 Z' fill='%23442030'/%3E%3Ccircle cx='440' cy='188' r='46' fill='%23f2d2ae'/%3E%3Cpath d='M390 188 q50 -72 100 0 q-50 38 -100 0 z' fill='%23442030'/%3E%3Crect x='560' y='210' width='250' height='8' rx='4' fill='%231b1d24' opacity='.35'/%3E%3Crect x='560' y='236' width='180' height='8' rx='4' fill='%231b1d24' opacity='.2'/%3E%3C/svg%3E" width="900" height="450" alt="冬季企划《光与形》专题封面：米色空间中的人物侧影与几何光斑">
+          </div>
+          <h3>《光与形》2026 冬季企划</h3>
+          <p class="bhm-topic-desc">以“光如何塑造身体”为命题，联动六位签约摄影师在同一空间完成各自表达，强调白虎美女写真的原创性与正版规范。</p>
+          <ul>
+            <li>第一组《窗侧》：自然光下的静态人像</li>
+            <li>第二组《折面》：几何道具与硬光实验</li>
+            <li>第三组《余温》：夜间低照度叙事短片</li>
+          </ul>
+        </article>
+
+        <article class="bhm-card bhm-topic">
+          <span class="bhm-topic-status">长期征集</span>
+          <h3>新人放映室</h3>
+          <p class="bhm-topic-desc">面向首次投稿的创作者，提供编审回信与成片展映位，帮助新面孔被社区看见。</p>
+          <ul>
+            <li>每双周更新一期入选名单</li>
+            <li>优秀作品进入年度口碑榜</li>
+            <li>开放拍摄脚本模板下载</li>
+          </ul>
+        </article>
+
+        <article class="bhm-card bhm-topic">
+          <span class="bhm-topic-status">已完结 · 12 组</span>
+          <h3>《纸上影棚》</h3>
+          <p class="bhm-topic-desc">把影棚搬进纸张与墨色里，一次关于低成本却高品质的拍摄实验。</p>
+          <ul>
+            <li>道具清单与预算公开</li>
+            <li>三套布光方案对照</li>
+            <li>成片与废片同时展示</li>
+          </ul>
+        </article>
+
+        <article class="bhm-card bhm-topic">
+          <span class="bhm-topic-status">进行中 · 报名开放</span>
+          <h3>城市光影挑战</h3>
+          <p class="bhm-topic-desc">限定 48 小时，用一座城市的光完成一组白虎美女写真创作，投票产生年度影像。</p>
+          <ul>
+            <li>报名截止 11 月 30 日</li>
+            <li>官方提供拍摄场地支持</li>
+            <li>优秀团队获展映与署名</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- M15 品牌解析 / 深度 -->
+  <section class="bhm-sec" id="bhm-about">
+    <div class="bhm-wrap">
+      <div class="bhm-sec-head">
+        <span class="bhm-eyebrow">Brand Deep Dive</span>
+        <h2 class="bhm-h2">关于白虎美女写真，我们如何理解<em>影像品质</em></h2>
+      </div>
+      <div class="bhm-about-grid">
+        <div class="bhm-about-body">
+          <p>“白虎美女写真”在今天的网络语境里被反复提起，但真正决定一组作品能否被长久观看的，往往不是话题，而是影像本身的完成度。白虎影像自 2019 年成立起，就把这件事当作企业的核心命题：我们要做的不是一次性流量的图片堆叠，而是一个可以持续运营、值得信赖的原创影像平台。</p>
+
+          <h3>一、白虎美女写真的题材边界与创作伦理</h3>
+          <p>我们在内部把“白虎美女写真”拆成三层来理解。第一层是视觉语言：大量的白、灰、米色与低饱和肤色构成基调，白虎意象带来的是对比与克制，而不是直接的符号化。摄影师需要在色温、肤色还原和影调层次上做大量功课，才能让画面在手机小屏上依然保留观看的耐心。第二层是人：出镜者的状态、呼吸与情绪才是主体，造型和道具都服务于人的真实感，任何喧宾夺主的视觉手法都会被编审退回。第三层是伦理：我们要求所有出镜者签署明确授权文件，拍摄前进行沟通与边界确认，任何涉及私人信息的画面一律不得发布。这套规范是白虎美女写真能够长期被认可的基础。</p>
+          <div class="bhm-figure">
+            <img src="data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3Crect width='800' height='500' fill='%23f3ede2'/%3E%3Crect x='60' y='60' width='680' height='380' fill='%23fffdfa' stroke='%23dcd5c9'/%3E%3Ccircle cx='240' cy='240' r='90' fill='%23c8435a' opacity='.14'/%3E%3Crect x='360' y='150' width='300' height='14' rx='7' fill='%23e8a33d'/%3E%3Crect x='360' y='190' width='230' height='10' rx='5' fill='%23b9ae9b'/%3E%3Crect x='360' y='214' width='260' height='10' rx='5' fill='%23d4cab7'/%3E%3Crect x='360' y='262' width='180' height='10' rx='5' fill='%23d4cab7'/%3E%3Ccircle cx='440' cy='352' r='34' fill='%231b1d24' opacity='.82'/%3E%3Cpath d='M406 352 q34 -50 68 0 q-34 26 -68 0 z' fill='%23f3ede2'/%3E%3C/svg%3E" width="800" height="500" alt="白虎影像内容规范示意：画面配色、影调层次与授权流程的编辑板">
+            <figcaption>内容编审板：色温、肤色层次与授权记录是白虎美女写真出库前的三道检查。</figcaption>
+          </div>
+
+          <h3>二、从一次拍摄到一套内容资产</h3>
+          <p>很多独立创作者以为拍完就结束了，但在白虎影像的工作流里，成片只是开始。我们要求投稿者同时提交：拍摄脚本、光位图、原始素材清单和授权文件。编审团队会先看叙事结构，再看技术指标，最后核对授权与合规。通过的作品会先进入“新人放映室”，获得一周的首页推荐期，然后根据社区反馈决定是否进入年度专题。这套流程听起来繁琐，却让白虎美女写真形成了可检索、可复用、可追溯的内容资产。我们的年度检索报告显示，经过完整归档的作品，其平均收藏率比未归档作品高出约 41%，二次观看率也明显更高。这说明观众愿意为清晰、专业、真实的影像买单。</p>
+
+          <h3>三、社区如何让写真走得更远</h3>
+          <p>白虎影像的社区不是简单的点赞池。我们设置了“拆片”“复盘”“对谈”三种固定互动：拆片让摄影师公开自己的取舍；复盘让拍摄者在两周后回看作品并写下遗憾；对谈则把出镜者放到主位，让她们讲述被拍摄时的真实感受。2025 年起，这三种互动累积产生了超过六千条长评论，其中有相当一部分成为后续专题的选题来源。社区的价值，在于把一次私人拍摄变成可讨论的公共经验，让白虎美女写真从“看图”走向“理解”。这也是平台坚持原创、正版、高清路线之后，自然生长出来的内容生态。</p>
+
+          <h3>四、我们接下来要做什么</h3>
+          <p>未来一年，白虎影像会继续把资源投向两个方向：一是拍摄基础设施，包括自建的两间恒光灯棚与可预约的移动光箱，降低新人的创作成本；二是版权与署名体系，让每一次授权、每一次转载都可追踪，让创作者真正从作品中获益。我们相信，只有让创作者被尊重、让作品被规范使用，白虎美女写真这条内容线才能保持长期的品质与口碑。对用户，我们承诺高清正版；对企业客户，我们承诺可查证的授权链条；对社区，我们承诺持续运营与真实反馈。这是白虎影像作为一家内容企业最基本的自我要求。</p>
+        </div>
+        <aside class="bhm-about-aside">
+          <div class="bhm-factcard">
+            <h4>关键数据</h4>
+            <ul>
+              <li><b>1,264</b> 组原创作品完成归档</li>
+              <li><b>38</b> 位签约创作者持续供稿</li>
+              <li><b>92.4万</b> 社区累计收藏</li>
+              <li><b>7 年</b> 持续运营与品牌沉淀</li>
+            </ul>
+          </div>
+          <div class="bhm-factcard">
+            <h4>品质承诺</h4>
+            <ul>
+              <li>全部发布内容为原创或已获授权</li>
+              <li>成片均提供高清版本与署名信息</li>
+              <li>授权文件可查，支持企业合规使用</li>
+              <li>用户反馈 48 小时内响应</li>
+            </ul>
+          </div>
+          <div class="bhm-factcard">
+            <h4>内容准则</h4>
+            <ul>
+              <li>真实优先于技巧</li>
+              <li>尊重出镜者的边界</li>
+              <li>拒绝低质重复与搬运</li>
+              <li>公开可复盘的创作过程</li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- M5 作者矩阵 -->
+  <section class="bhm-sec" id="bhm-authors">
+    <div class="bhm-wrap">
+      <div class="bhm-sec-head">
+        <span class="bhm-eyebrow">Creators</span>
+        <h2 class="bhm-h2">白虎美女写真背后的<em>创作者矩阵</em></h2>
+        <p class="bhm-lead">平台采用邀约与公开投稿并行机制，每位创作者都需通过作品审核与授权核验，点开可查看完整档案。</p>
+      </div>
+      <div class="bhm-authors">
+        <article class="bhm-card bhm-author">
+          <span class="bhm-author-ava" style="background:radial-gradient(circle at 32% 28%,#f6c869,#c8435a 80%)" aria-hidden="true">林</span>
+          <div>
+            <h3>林渚 <span class="bhm-author-role">摄影总监</span></h3>
+            <p>擅长自然光人像与长时间跟拍，主张“少一点摆布，多一点等待”。七年间完成九十余组白虎美女写真，代表作《白昼纹理》。</p>
+          </div>
+          <div class="bhm-author-data">
+            <div><b>96</b>作品</div>
+            <div><b>21.8万</b>关注</div>
+          </div>
+          <button class="bhm-act" type="button" data-bhm-author="林渚：摄影总监，擅长自然光人像与长时间跟拍。七年间完成九十余组白虎美女写真，负责平台年度光影企划的整体影像方向。">查看档案</button>
+        </article>
+
+        <article class="bhm-card bhm-author">
+          <span class="bhm-author-ava" style="background:radial-gradient(circle at 32% 28%,#8fb8d8,#3d4f6b 80%)" aria-hidden="true">墨</span>
+          <div>
+            <h3>阿墨 <span class="bhm-author-role">棚拍实验</span></h3>
+            <p>偏好纸张、木料与硬光，作品常带有手工感。持续更新《纸背》系列，公开布光图与预算，是新人最常参考的创作者之一。</p>
+          </div>
+          <div class="bhm-author-data">
+            <div><b>61</b>作品</div>
+            <div><b>14.3万</b>关注</div>
+          </div>
+          <button class="bhm-act" type="button" data-bhm-author="阿墨：棚拍实验创作者，偏好纸张、木料与硬光。长期公开布光图与成本清单，帮助新人以较低预算完成白虎美女写真的基础训练。">查看档案</button>
+        </article>
+
+        <article class="bhm-card bhm-author">
+          <span class="bhm-author-ava" style="background:radial-gradient(circle at 32% 28%,#a9d8b6,#2e6b46 80%)" aria-hidden="true">周</span>
+          <div>
+            <h3>周予 <span class="bhm-author-role">教程作者</span></h3>
+            <p>把复杂流程拆成可复用步骤，擅长用对照实验讲清技术问题。她的六步工作流视频被收藏近万次，评论区常被当作答疑区使用。</p>
+          </div>
+          <div class="bhm-author-data">
+            <div><b>74</b>作品</div>
+            <div><b>18.6万</b>关注</div>
+          </div>
+          <button class="bhm-act" type="button" data-bhm-author="周予：教程作者，擅长对照实验与流程拆解。她的六步工作流视频系统讲解白虎美女写真的构图、用光与后期，是平台收藏率最高的系列之一。">查看档案</button>
+        </article>
+
+        <article class="bhm-card bhm-author">
+          <span class="bhm-author-ava" style="background:radial-gradient(circle at 32% 28%,#f0b9c6,#8d3550 80%)" aria-hidden="true">苏</span>
+          <div>
+            <h3>苏绛 <span class="bhm-author-role">出镜与访谈</span></h3>
+            <p>既是出镜者也是访谈主持，关注镜头前的信任关系与表达边界。她发起的对谈栏目，让被拍摄者第一次成为叙事的主语。</p>
+          </div>
+          <div class="bhm-author-data">
+            <div><b>42</b>作品</div>
+            <div><b>11.7万</b>关注</div>
+          </div>
+          <button class="bhm-act" type="button" data-bhm-author="苏绛：出镜者与访谈主持，关注镜头前的信任与表达边界。她发起的对谈栏目以被拍摄者为主语，为白虎美女写真补上了重要的伦理视角。">查看档案</button>
+        </article>
+
+        <article class="bhm-card bhm-author">
+          <span class="bhm-author-ava" style="background:radial-gradient(circle at 32% 28%,#f2d2ae,#8a5a2b 80%)" aria-hidden="true">顾</span>
+          <div>
+            <h3>顾辞 <span class="bhm-author-role">幕后记录</span></h3>
+            <p>专注片场纪录与制作过程，习惯用长镜头观察一次拍摄如何从混乱走向秩序，为平台多支官方企划留下完整幕后档案。</p>
+          </div>
+          <div class="bhm-author-data">
+            <div><b>35</b>作品</div>
+            <div><b>8.9万</b>关注</div>
+          </div>
+          <button class="bhm-act" type="button" data-bhm-author="顾辞：幕后记录创作者，专注片场与制作过程。她用长镜头观察拍摄如何从混乱走向秩序，为白虎影像的年度企划保留了完整的幕后档案。">查看档案</button>
+        </article>
+
+        <article class="bhm-card bhm-author">
+          <span class="bhm-author-ava" style="background:radial-gradient(circle at 32% 28%,#c9b6e8,#4a3a6b 80%)" aria-hidden="true">编</span>
+          <div>
+            <h3>编辑部 <span class="bhm-author-role">官方发布</span></h3>
+            <p>负责企业动态、行业观察与官方发布，维护白虎美女写真的选题库与合规标准，也是社区反馈与投诉的第一处理入口。</p>
+          </div>
+          <div class="bhm-author-data">
+            <div><b>128</b>发布</div>
+            <div><b>6.2万</b>关注</div>
+          </div>
+          <button class="bhm-act" type="button" data-bhm-author="编辑部：白虎影像官方内容团队，负责企业动态、行业观察与官方发布，同时维护内容合规标准与社区反馈通道。">查看档案</button>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- S6 图文索引 -->
+  <section class="bhm-sec" id="bhm-index">
+    <div class="bhm-wrap">
+      <div class="bhm-sec-head">
+        <span class="bhm-eyebrow">Reading Index</span>
+        <h2 class="bhm-h2">白虎美女写真<em>阅读索引</em></h2>
+        <p class="bhm-lead">不适合用视频表达的细节，我们写成可以慢慢读的文字，配合少量图片索引，方便收藏与检索。</p>
+      </div>
+      <div class="bhm-index-grid">
+        <article class="bhm-card bhm-index-item">
+          <img src="data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 500 380'%3E%3Crect width='500' height='380' fill='%23e8e0d2'/%3E%3Crect x='40' y='40' width='420' height='300' fill='%23fffdfa'/%3E%3Crect x='70' y='80' width='190' height='12' rx='6' fill='%23c8435a'/%3E%3Crect x='70' y='108' width='330' height='8' rx='4' fill='%23cfc6b5'/%3E%3Crect x='70' y='128' width='300' height='8' rx='4' fill='%23ded6c6'/%3E%3Crect x='70' y='166' width='150' height='120' fill='%23f0b429' opacity='.75'/%3E%3Ccircle cx='340' cy='226' r='62' fill='%23201a22' opacity='.12'/%3E%3C/svg%3E" width="500" height="380" alt="阅读索引《用一次拍摄预算做完整影棚》配图：排版纸样与色块">
+          <div class="bhm-index-body">
+            <span class="bhm-tag">实用技巧</span>
+            <h3>用一次拍摄预算，做一间完整影棚</h3>
+            <p>从背景纸固定、灯具选型到降噪处理，给出一套 1.2 万元内的可执行清单。</p>
+          </div>
+        </article>
+        <article class="bhm-card bhm-index-item">
+          <img src="data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 500 380'%3E%3Crect width='500' height='380' fill='%23201a22'/%3E%3Ccircle cx='150' cy='150' r='90' fill='%23e8a33d' opacity='.35'/%3E%3Ccircle cx='360' cy='240' r='120' fill='%23c8435a' opacity='.28'/%3E%3Cpath d='M0 300 Q120 220 250 300 T500 290 L500 380 L0 380 Z' fill='%23f7e6c8' opacity='.15'/%3E%3Crect x='60' y='60' width='120' height='8' rx='4' fill='%23f7e6c8' opacity='.6'/%3E%3C/svg%3E" width="500" height="380" alt="阅读索引《暗调人像的肤色还原》配图：深色背景中的暖色光团">
+          <div class="bhm-index-body">
+            <span class="bhm-tag">深度测评</span>
+            <h3>暗调人像的肤色还原：三个常见误判</h3>
+            <p>为什么屏幕上看好的肤色，导出后会偏绿，我们用对照图说明问题出在哪里。</p>
+          </div>
+        </article>
+        <article class="bhm-card bhm-index-item">
+          <img src="data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 500 380'%3E%3Crect width='500' height='380' fill='%23f3ede2'/%3E%3Crect x='0' y='250' width='500' height='130' fill='%238db08a' opacity='.55'/%3E%3Ccircle cx='250' cy='150' r='72' fill='%23f2d2ae'/%3E%3Cpath d='M178 150 q72 -104 144 0 q-72 52 -144 0 z' fill='%233c4a3d'/%3E%3Cpath d='M120 380 C150 300 200 270 250 262 C300 270 350 300 380 380 Z' fill='%23c8435a' opacity='.6'/%3E%3C/svg%3E" width="500" height="380" alt="阅读索引《外景人像的时间选择》配图：绿色环境中的半身人像">
+          <div class="bhm-index-body">
+            <span class="bhm-tag">经验分享</span>
+            <h3>外景人像的时间选择：从清晨到雨后</h3>
+            <p>不同时段的光质差异，以及如何根据场地朝向提前一天完成踩点。</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- S6 用户口碑 -->
+  <section class="bhm-sec" id="bhm-cmts">
+    <div class="bhm-wrap">
+      <div class="bhm-cmt-head">
+        <div>
+          <span class="bhm-eyebrow">Community Voice</span>
+          <h2 class="bhm-h2">来自社区的<em>真实评价</em></h2>
+        </div>
+        <div class="bhm-score">4.9<span style="font-size:15px;color:#8b857a">/5</span></div>
+        <p style="max-width:420px;font-size:13.5px;color:var(--bhm-ink-soft);margin:0;">基于 2,318 条已完成观看的社区反馈整理，涵盖内容质量、作者沟通与授权规范三个维度。</p>
+      </div>
+      <div class="bhm-cmts">
+        <div class="bhm-cmt bhm-cmt--quote">
+          <div class="bhm-cmt-b">置顶摘录 <span>社区运营组</span></div>
+          <p>“我原本只是来看图的，后来开始认真研究布光。白虎美女写真给我的最大改变，是学会在拍摄前和出镜者好好聊一次。”</p>
+        </div>
+        <div class="bhm-cmt">
+          <span class="bhm-cmt-ava" style="background:radial-gradient(circle at 34% 30%,#f6c869,#c8435a)" aria-hidden="true">阿</span>
+          <div>
+            <div class="bhm-cmt-b">阿岚的相机 <span>2026-11-18</span></div>
+            <p>跟着周予的六步工作流拍了一组，废片率明显下降。就是布光图如果能提供可下载的版本就更好了。</p>
+          </div>
+        </div>
+        <div class="bhm-cmt">
+          <span class="bhm-cmt-ava" style="background:radial-gradient(circle at 34% 30%,#8fb8d8,#3d4f6b)" aria-hidden="true">周</span>
+          <div>
+            <div class="bhm-cmt-b">周末不出门 <span>2026-11-16</span></div>
+            <p>授权说明写得很清楚，这点在同类平台里很少见。作为企业采购方，我们需要的就是这种可查证的流程。</p>
+          </div>
+        </div>
+        <div class="bhm-cmt">
+          <span class="bhm-cmt-ava" style="background:radial-gradient(circle at 34% 30%,#a9d8b6,#2e6b46)" aria-hidden="true">小</span>
+          <div>
+            <div class="bhm-cmt-b">小满 <span>2026-11-14</span></div>
+            <p>新人放映室推了我的第一组作品，收到很多具体建议，不是那种“加油”的空话，挺暖的。</p>
+          </div>
+        </div>
+        <div class="bhm-cmt">
+          <span class="bhm-cmt-ava" style="background:radial-gradient(circle at 34% 30%,#f0b9c6,#8d3550)" aria-hidden="true">木</span>
+          <div>
+            <div class="bhm-cmt-b">木子李 <span>2026-11-11</span></div>
+            <p>看了《纸背》系列，第一次知道硬光也能这么温柔。希望多更新一些废片对比，那个真的有帮助。</p>
+          </div>
+        </div>
+        <div class="bhm-cmt">
+          <span class="bhm-cmt-ava" style="background:radial-gradient(circle at 34% 30%,#c9b6e8,#4a3a6b)" aria-hidden="true">林</span>
+          <div>
+            <div class="bhm-cmt-b">林间小径 <span>2026-11-09</span></div>
+            <p>整体质量很高，但部分专题的更新节奏偏慢，等待的时候会反复刷首页。建议加个更新提醒。</p>
+          </div>
+        </div>
+        <div class="bhm-cmt">
+          <span class="bhm-cmt-ava" style="background:radial-gradient(circle at 34% 30%,#f2d2ae,#8a5a2b)" aria-hidden="true">一</span>
+          <div>
+            <div class="bhm-cmt-b">一只胶片 <span>2026-11-06</span></div>
+            <p>深夜看《余温》那支短片，情绪很稳。作为出镜过的人，能感受到拍摄现场那种被尊重的工作方式。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- S7 企业动态 / 合作 / FAQ -->
+  <section class="bhm-sec" id="bhm-news">
+    <div class="bhm-wrap bhm-two-col">
+      <div>
+        <span class="bhm-eyebrow">Official Updates</span>
+        <h2 class="bhm-h2">企业动态与<em>官方发布</em></h2>
+        <ul class="bhm-timeline">
+          <li>
+            <time datetime="2026-11-20">2026.11.20</time>
+            <h3>《光与形》冬季企划首批 12 组作品上线</h3>
+            <p>六位签约摄影师参与，全部提供高清正版版本与授权编号，专题页可检索。</p>
+          </li>
+          <li>
+            <time datetime="2026-11-12">2026.11.12</time>
+            <h3>城市光影挑战开放报名</h3>
+            <p>48 小时限时创作，面向社区创作者与院校团队，报名截止 11 月 30 日。</p>
+          </li>
+          <li>
+            <time datetime="2026-10-28">2026.10.28</time>
+            <h3>内容准则 2.0 版发布</h3>
+            <p>新增出镜者沟通确认与授权留档要求，编辑部同步开放反馈入口。</p>
+          </li>
+          <li>
+            <time datetime="2026-10-09">2026.10.09</time>
+            <h3>两间恒光灯棚完成改造</h3>
+            <p>签约创作者可按档期预约，新人首月免费使用，降低入门拍摄成本。</p>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <div class="bhm-factcard" style="margin-bottom:22px;">
+          <h4>合作品牌与伙伴</h4>
+          <div class="bhm-partners">
+            <div class="bhm-partner">幕光器材<small>灯具与灯光支持</small></div>
+            <div class="bhm-partner">纸间纸品<small>背景与道具合作</small></div>
+            <div class="bhm-partner">南岸影棚<small>场地联合运营</small></div>
+            <div class="bhm-partner">灰度学院<small>课程与人才培养</small></div>
+          </div>
+        </div>
+        <div class="bhm-factcard">
+          <h4>创作灵感速递</h4>
+          <ul>
+            <li><b>脚本灵感：</b>用 12 个固定机位记录一个下午</li>
+            <li><b>标题建议：</b>把“拍什么”换成“为什么拍”</li>
+            <li><b>剪辑思路：</b>让呼吸声成为转场</li>
+            <li><b>选题提醒：</b>废片对比比成片更受欢迎</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bhm-sec" id="bhm-faq" style="padding-top:0;">
+    <div class="bhm-wrap">
+      <div class="bhm-sec-head">
+        <span class="bhm-eyebrow">Help Center</span>
+        <h2 class="bhm-h2">关于白虎美女写真的<em>常见问题</em></h2>
+        <p class="bhm-lead">如果以下内容没有解决你的疑问，可通过页面底部的联系入口提交反馈，我们会在两个工作日内回复。</p>
+      </div>
+      <div class="bhm-faq">
+        <details open>
+          <summary>投稿白虎美女写真有什么基本要求？</summary>
+          <div class="bhm-faq-a">作品需为原创或已获完整授权，分辨率不低于 3000px 长边，并附出镜者签署的授权文件。涉及私密信息或未获同意的画面一律不予受理，这是平台最重要的底线。</div>
+        </details>
+        <details>
+          <summary>平台的内容是否都可以商用？</summary>
+          <div class="bhm-faq-a">不可以一概而论。页面标注“开放授权”的作品可用于约定的商业场景，其他作品仅限观看与个人收藏。企业客户请通过联系入口提交用途说明，我们会提供对应的授权链与报价。</div>
+        </details>
+        <details>
+          <summary>新人如何获得首页推荐？</summary>
+          <div class="bhm-faq-a">通过新人放映室入选后即进入一周的首页推荐期。评审主要看叙事完整度、技术指标与授权合规三项，不看粉丝量。入选者会收到一封含具体修改建议的编审回信。</div>
+        </details>
+        <details>
+          <summary>我在其他平台看到疑似搬运的内容怎么办？</summary>
+          <div class="bhm-faq-a">请通过反馈入口提交链接与截图，并注明原作链接。核实后我们会走版权流程，同时向举报者同步处理进度。搬运与二改是社区最不受欢迎的行为之一。</div>
+        </details>
+        <details>
+          <summary>签约创作者有什么支持？</summary>
+          <div class="bhm-faq-a">包括灯棚预约、企划选题、拍摄预算补贴与展映位，同时提供授权与合规方面的协助。签约不限制创作者在其他平台发布，但要求同一作品在平台保持完整归档。</div>
+        </details>
+        <details>
+          <summary>城市光影挑战如何组队？</summary>
+          <div class="bhm-faq-a">每队 2 至 4 人，至少包含一位摄影与一位出镜者。报名需提交过往作品与两小时的创作方案，官方会为入选团队提供场地协调与部分器材支持。</div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA 投稿联系 -->
+  <section class="bhm-sec" id="bhm-contact" style="padding-top:0;">
+    <div class="bhm-wrap">
+      <div class="bhm-cta">
+        <div>
+          <h2>把你的白虎美女写真，交给一个认真对待影像的地方</h2>
+          <p>投稿通道长期开放，接受个人作品、专题提案与企业合作。我们看重真实、原创与规范，也愿意为好的内容提供展映与资源支持。</p>
+        </div>
+        <div class="bhm-act-row">
+          <button class="bhm-btn bhm-btn--primary" type="button" data-bhm-open="submit">提交作品</button>
+          <button class="bhm-btn bhm-btn--soft" type="button" data-bhm-share>分享本站</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- S8 页脚 -->
+<footer class="bhm-footer">
+  <div class="bhm-wrap">
+    <div class="bhm-footer-top">
+      <div>
+        <div class="bhm-footer-brand">
+          <span class="bhm-brand-mark" aria-hidden="true">白</span>
+          <span class="bhm-brand-name">白虎影像</span>
+        </div>
+        <p style="max-width:24em;">白虎影像官方网站，专注白虎美女写真方向的原创人像影像品牌。我们以高清正版内容、规范的授权体系与持续运营的社区，连接创作者与每一位认真观看的人。</p>
+      </div>
+      <div>
+        <h4>内容</h4>
+        <ul>
+          <li><a href="#bhm-feature">精选影像</a></li>
+          <li><a href="#bhm-topics">专题企划</a></li>
+          <li><a href="#bhm-index">阅读索引</a></li>
+          <li><a href="#bhm-authors">创作者矩阵</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>关于</h4>
+        <ul>
+          <li><a href="#bhm-about">品牌解析</a></li>
+          <li><a href="#bhm-news">企业动态</a></li>
+          <li><a href="#bhm-cmts">用户口碑</a></li>
+          <li><a href="#bhm-faq">帮助中心</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>联系</h4>
+        <ul>
+          <li>合作邮箱：studio@baihu-image.example</li>
+          <li>工作时间：周一至周五 10:00–18:30</li>
+          <li><a href="#bhm-contact">投稿与合作入口</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="bhm-footer-bottom">
+      <span>© 2019–2026 白虎影像 · 官方网站 | 版权所有 | 持续运营中</span>
+      <span>备案号：沪 ICP 备 2026000000 号-2 · 内容均为原创或已获授权，转载须经许可</span>
+    </div>
+  </div>
+</footer>
+
+<button class="bhm-totop" id="bhmToTop" type="button" aria-label="回到顶部">↑</button>
+<div class="bhm-toast" id="bhmToast" role="status" aria-live="polite"></div>
+
+<!-- 弹窗集合 -->
+<div class="bhm-modal" id="bhmModal" role="dialog" aria-modal="true" aria-labelledby="bhmModalTitle">
+  <div class="bhm-modal-box">
+    <button class="bhm-modal-close" id="bhmModalClose" type="button" aria-label="关闭">×</button>
+    <h3 id="bhmModalTitle">提示</h3>
+    <div id="bhmModalBody"></div>
+  </div>
+</div>
+
+<script>
+(function(){
+  "use strict";
+
+  var toastEl = document.getElementById('bhmToast');
+  var toastTimer = null;
+  function toast(msg){
+    toastEl.textContent = msg;
+    toastEl.classList.add('is-show');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function(){ toastEl.classList.remove('is-show'); }, 2200);
+  }
+
+  /* 移动端导航 */
+  var burger = document.getElementById('bhmBurger');
+  var nav = document.getElementById('bhmNav');
+  burger.addEventListener('click', function(){
+    var open = nav.classList.toggle('is-open');
+    burger.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+  nav.addEventListener('click', function(e){
+    if(e.target.tagName === 'A' && window.innerWidth <= 940){
+      nav.classList.remove('is-open');
+      burger.setAttribute('aria-expanded', 'false');
+    }
+  });
+
+  /* 搜索提示反馈 */
+  var searchInput = document.getElementById('bhmSearchInput');
+  var searchBtn = document.getElementById('bhmSearchBtn');
+  var searchTip = document.getElementById('bhmSearchTip');
+  var keywords = ['白昼纹理','纸背','六步工作流','苏绛访谈','光与形','暗调肤色','光位图','新人放映室','城市光影挑战'];
+  function doSearch(){
+    var q = (searchInput.value || '').trim();
+    if(!q){
+      searchTip.innerHTML = '输入关键词试试，例如：<strong>光与形</strong>、<strong>布光</strong>、<strong>苏绛</strong>。';
+      searchTip.classList.add('is-open');
+      return;
+    }
+    var hits = keywords.filter(function(k){ return k.indexOf(q) > -1 || q.indexOf(k) > -1; });
+    if(hits.length){
+      searchTip.innerHTML = '找到 <strong>' + hits.length + '</strong> 个相关条目：<br>' + hits.map(function(h){ return '· ' + h; }).join('<br>');
+    }else{
+      searchTip.innerHTML = '未找到与「<strong>' + q.replace(/[<>&]/g,'') + '</strong>」直接匹配的内容。可尝试：<br>· 光与形<br>· 布光<br>· 授权';
+    }
+    searchTip.classList.add('is-open');
+  }
+  searchBtn.addEventListener('click', doSearch);
+  searchInput.addEventListener('keydown', function(e){ if(e.key === 'Enter'){ e.preventDefault(); doSearch(); } });
+  document.addEventListener('click', function(e){
+    if(!e.target.closest('.bhm-search')){ searchTip.classList.remove('is-open'); }
+  });
+
+  /* 点赞 */
+  document.querySelectorAll('[data-bhm-like]').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var on = btn.classList.toggle('is-on');
+      var base = parseInt(btn.getAttribute('data-bhm-count') || '0', 10);
+      var next = on ? base + 1 : base;
+      var span = btn.querySelector('span');
+      var icon = btn.firstChild;
+      if(span){ span.textContent = next; }
+      if(icon && icon.nodeType === 3){ icon.nodeValue = on ? '♥ 点赞 ' : '♡ 点赞 '; }
+      toast(on ? '已点赞，感谢你的支持' : '已取消点赞');
+    });
+  });
+
+  /* 收藏 */
+  document.querySelectorAll('[data-bhm-fav]').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var on = btn.classList.toggle('is-on');
+      btn.textContent = on ? '★ 已收藏' : '☆ 收藏';
+      toast(on ? '已加入收藏夹' : '已取消收藏');
+    });
+  });
+
+  /* 分享 */
+  document.querySelectorAll('[data-bhm-share]').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var text = '白虎影像 · 白虎美女写真原创影像平台，分享给同样喜欢影像的朋友。';
+      if(navigator.share){
+        navigator.share({ title:'白虎影像', text:text }).catch(function(){});
+      }else{
+        toast('分享文案已准备好，可复制发给朋友');
+      }
+    });
+  });
+
+  /* 弹窗通用 */
+  var modal = document.getElementById('bhmModal');
+  var modalTitle = document.getElementById('bhmModalTitle');
+  var modalBody = document.getElementById('bhmModalBody');
+  function openModal(title, html){
+    modalTitle.textContent = title;
+    modalBody.innerHTML = html;
+    modal.classList.add('is-open');
+  }
+  function closeModal(){
+    modal.classList.remove('is-open');
+  }
+  document.getElementById('bhmModalClose').addEventListener('click', closeModal);
+  modal.addEventListener('click', function(e){ if(e.target === modal){ closeModal(); } });
+  document.addEventListener('keydown', function(e){ if(e.key === 'Escape'){ closeModal(); } });
+
+  function bindModalOpeners(){
+    document.querySelectorAll('[data-bhm-open]').forEach(function(btn){
+      btn.addEventListener('click', function(){
+        var type = btn.getAttribute('data-bhm-open');
+        if(type === 'submit'){
+          openModal('作品投稿', [
+            '<p>请填写基本信息，编辑部会在两个工作日内回复。涉及授权文件请在回复邮件中补充。</p>',
+            '<div class="bhm-field"><label for="bhmSName">你的称呼</label><input id="bhmSName" type="text" placeholder="例如：林渚"></div>',
+            '<div class="bhm-field"><label for="bhmSTopic">作品或选题名称</label><input id="bhmSTopic" type="text" placeholder="例如：白昼纹理 · 第二组"></div>',
+            '<div class="bhm-field"><label for="bhmSMail">联系邮箱</label><input id="bhmSMail" type="email" placeholder="name@example.com"></div>',
+            '<div class="bhm-field"><label for="bhmSDesc">一句话介绍</label><textarea id="bhmSDesc" rows="3" placeholder="拍摄时间、地点、用光思路或你最想被看到的部分"></textarea></div>',
+            '<div class="bhm-share-row"><button class="bhm-btn bhm-btn--primary" type="button" id="bhmSubmitOk">提交</button><button class="bhm-btn bhm-btn--soft" type="button" id="bhmSubmitCancel">再想想</button></div>'
+          ].join(''));
+          document.getElementById('bhmSubmitCancel').addEventListener('click', closeModal);
+          document.getElementById('bhmSubmitOk').addEventListener('click', function(){
+            var name = document.getElementById('bhmSName').value.trim();
+            var topic = document.getElementById('bhmSTopic').value.trim();
+            if(!name || !topic){ toast('请先填写称呼和作品名称'); return; }
+            closeModal();
+            toast('已收到投稿信息，编辑部会尽快回复');
+          });
+        }else if(type === 'comment'){
+          openModal('参与评论', [
+            '<p>请保持友善，具体、真实、有细节的评论会被优先展示。</p>',
+            '<div class="bhm-field"><label for="bhmCmtText">你的评论</label><textarea id="bhmCmtText" rows="4" placeholder="说说你从这组作品里看到了什么"></textarea></div>',
+            '<div class="bhm-field"><label for="bhmCmtName">昵称</label><input id="bhmCmtName" type="text" placeholder="社区昵称"></div>',
+            '<div class="bhm-share-row"><button class="bhm-btn bhm-btn--primary" type="button" id="bhmCmtOk">发布</button></div>'
+          ].join(''));
+          document.getElementById('bhmCmtOk').addEventListener('click', function(){
+            var t = document.getElementById('bhmCmtText').value.trim();
+            if(!t){ toast('评论内容不能为空'); return; }
+            closeModal();
+            toast('评论已发布，感谢你的真实反馈');
+          });
+        }else if(type === 'report'){
+          openModal('反馈与举报', [
+            '<p>可反馈内容问题、授权疑问或使用体验建议，核实后会同步处理进度。</p>',
+            '<div class="bhm-field"><label for="bhmRepText">问题描述</label><textarea id="bhmRepText" rows="4" placeholder="请描述具体情况"></textarea></div>',
+            '<div class="bhm-share-row"><button class="bhm-btn bhm-btn--primary" type="button" id="bhmRepOk">提交反馈</button></div>'
+          ].join(''));
+          document.getElementById('bhmRepOk').addEventListener('click', function(){
+            var t = document.getElementById('bhmRepText').value.trim();
+            if(!t){ toast('请先填写问题描述'); return; }
+            closeModal();
+            toast('反馈已提交，我们会在两个工作日内回复');
+          });
+        }
+      });
+    });
+
+    document.querySelectorAll('[data-bhm-author]').forEach(function(btn){
+      btn.addEventListener('click', function(){
+        openModal('创作者档案', '<p>' + btn.getAttribute('data-bhm-author') + '</p><p>如需合作或约拍，请通过页面底部的投稿入口提交说明。</p>');
+      });
+    });
+  }
+  bindModalOpeners();
+
+  /* 回到顶部 */
+  var toTop = document.getElementById('bhmToTop');
+  window.addEventListener('scroll', function(){
+    if(window.scrollY > 520){ toTop.classList.add('is-show'); }
+    else{ toTop.classList.remove('is-show'); }
+  }, { passive:true });
+  toTop.addEventListener('click', function(){ window.scrollTo({ top:0, behavior:'smooth' }); });
+
+  /* 公告条滚动 */
+  var roll = document.getElementById('bhmAnnounceRoll');
+  if(roll && roll.children.length === 1){
+    var first = roll.firstElementChild;
+    var clone = first.cloneNode(true);
+    first.parentNode.appendChild(clone);
+    var x = 0, paused = false;
+    var speed = 0.45;
+    roll.addEventListener('mouseenter', function(){ paused = true; });
+    roll.addEventListener('mouseleave', function(){ paused = false; });
+    function loop(){
+      if(!paused){
+        x -= speed;
+        if(Math.abs(x) >= first.offsetWidth){ x = 0; }
+        roll.style.transform = 'translateX(' + x + 'px)';
+      }
+      requestAnimationFrame(loop);
+    }
+    if(!window.matchMedia('(prefers-reduced-motion: reduce)').matches){ loop(); }
+  }
+})();
+</script>
+</body>
+          </html>
